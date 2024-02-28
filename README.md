@@ -1,7 +1,6 @@
 # flexbox-spotifu
 
 ## Instalar extensiones
-
 - Css peek, para poder hacer un go to a la clase.
 - IntelliSense for CSS class names in HTML, autocompletado de las clases.
 - Landmarks Secciones importantes de nuestro html.
@@ -13,3 +12,32 @@
 
 ## ¿Qué es un componente?
 Un componente es una parte independiente, que realiza una funcion especifica. Pero existen componentes mas sofisticados (mas elaborados) que se componen de varios componentes.
+
+## Convenciones de nombres populares en CSS
+
+Convenciones de nombre para css:
+1. BEM
+```css
+  .block
+  .my-block
+  .my-block__element
+  .my-block__fancy-element
+  .my-block__element--modifier
+  .my-block__fancy-element--modifier
+```
+2. SuitCSS
+```css
+  MyComponent
+  MyComponent-part
+  MyComponent-anotherPart
+  MyComponent--modifier
+  is-state
+  u-utily
+```
+3. SMACSS
+
+4. Atomic
+
+Nosotros ocuparemos una combinación entre BEM SUITCSS
+
+[Recurso BEM](https://www.freecodecamp.org/espanol/news/convenciones-de-nomenclatura-de-css-que-te-ahorraran-horas-de-depuracion/)
