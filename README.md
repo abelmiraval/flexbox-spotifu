@@ -41,3 +41,12 @@ Convenciones de nombre para css:
 Nosotros ocuparemos una combinación entre BEM SUITCSS
 
 [Recurso BEM](https://www.freecodecamp.org/espanol/news/convenciones-de-nomenclatura-de-css-que-te-ahorraran-horas-de-depuracion/)
+
+## Convenciones para este curso
+- No se escribiran estilos globales a excepcion de las configuraciones y theme de la aplicacion
+- Las clases seran basadas en componentes y no se deberan repetir
+- Una hoja de estilos por componente
+- Los componentes no deben tener depedencias externas
+- Los archivos se escribiran ***kebab-case***
+
+Se utilizara en kebab-case, porque en mac no diferencia entre mayusculas o minusculas, pero cuando lo subamos a un servidor linux nos puede traer problemas ya que el S.O linux distingue en mayuculas y minusculas.
