@@ -50,3 +50,29 @@ Nosotros ocuparemos una combinación entre BEM SUITCSS
 - Los archivos se escribiran ***kebab-case***
 
 Se utilizara en kebab-case, porque en mac no diferencia entre mayusculas o minusculas, pero cuando lo subamos a un servidor linux nos puede traer problemas ya que el S.O linux distingue en mayuculas y minusculas.
+
+## Flexible Box Layout Module
+Las propiedades usadas son display:flex y display:inline-flex, se comporta como elementos en bloque y elementos en linea.
+
+La diferencia  es que el flex container agrupa a los elementos.
+
+El contenedor se llamaria flex container y los elementos hijos serian los flex items.
+
+flex-container: Es el contenedor de los divs
+
+flex-items: Son los hijos del contenedor, tambien pueden ser flex-container
+
+```css
+<div class="box">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+```
+
+#### display: flex
+![display: flex](resources/flex/display-flex.png)
+
+#### display: inline-flex
+![display: inline-flex](resources/flex/display-inline-flex.png)
+
