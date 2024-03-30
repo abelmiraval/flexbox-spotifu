@@ -1,0 +1,31 @@
+:root{
+    --darkColor: #04001e;
+    --ligthColor: #DFFBFF;
+    --primaryColor: #DB086F;
+}
+
+body {
+    background: var(--darkColor);
+    color: var(--ligthColor);
+    font-family: system-ui;
+}
+
+a {
+    color: var(--ligthColor);
+}
+
+.wrapper {
+    max-inline-size: 64rem;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.box {
+    border:  5px dashed var(--primaryColor);
+    padding: 1rem;
+    counter-increment: flex-items;
+}
+
+.box::after {
+    content: counter(flex-items);
+}
