@@ -62,7 +62,7 @@ flex-container: Es el contenedor de los divs
 
 flex-items: Son los hijos del contenedor, tambien pueden ser flex-container
 
-```css
+```html
 <div class="box">
   <div class="box"></div>
   <div class="box"></div>
@@ -76,3 +76,50 @@ flex-items: Son los hijos del contenedor, tambien pueden ser flex-container
 #### display: inline-flex
 ![display: inline-flex](resources/flex/display-inline-flex.png)
 
+## Flex Layout Box Model
+![Flex Layout Box Model](resources/flex/flex-layout-box-model.png)
+
+### Ejes
+Segun el modo se definira cual es el eje principal o eje transversal.
+
+- Por defecto <pre>writing-mode: horizontal-tb </pre>
+  ![Alt text](resources/flex/axis-left-to-rigth.png)
+
+- Aplicando <pre> writing-mode: vertical-rl </pre>
+  ![Alt text](resources/flex/axis-up-to-down.png)
+
+- Tambien existen estas alineaciones
+  ![Alt text](resources/flex/axis-rigth-to-left.png)
+
+  ![Alt text](resources/flex/axis-below-to-up.png)
+
+### Tamaños
+Aqui tambien sigue el mismo patron que ejes, no existe eje x ni y.
+
+![Alt text](resources/flex/flex-size.png)
+
+Ejemplo:
+
+```css
+.box {
+  block-size: 300px;
+}
+
+.box > .box{
+  block-size: auto;
+}
+```
+
+Los hijos toman el alto del padre.
+
+![Alt text](resources/flex/block-size-flex.png)
+
+### Alineaciones
+
+![Alt text](resources/flex/lineups-1.png)
+
+![Alt text](resources/flex/lineups-2.png)
+
+![Alt text](resources/flex/lineups-3.png)
+
+![Alt text](resources/flex/lineups-4.png)
